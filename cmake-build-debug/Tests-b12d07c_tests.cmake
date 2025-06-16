@@ -1,0 +1,7 @@
+add_test( [==[Example Test Name - Change me!]==] /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug/Tests [==[Example Test Name - Change me!]==]  )
+set_tests_properties( [==[Example Test Name - Change me!]==] PROPERTIES WORKING_DIRECTORY /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug)
+add_test( [==[Test 2]==] /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug/Tests [==[Test 2]==]  )
+set_tests_properties( [==[Test 2]==] PROPERTIES WORKING_DIRECTORY /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug)
+add_test( [==[Example BST Insert]==] /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug/Tests [==[Example BST Insert]==]  )
+set_tests_properties( [==[Example BST Insert]==] PROPERTIES WORKING_DIRECTORY /Users/evanwarnock/CLionProjects/AVL_tree/cmake-build-debug)
+set( Tests_TESTS [==[Example Test Name - Change me!]==] [==[Test 2]==] [==[Example BST Insert]==])
